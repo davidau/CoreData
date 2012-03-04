@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "coreDataViewController.h"
 
-@interface coreDataAppDelegate : UIResponder <UIApplicationDelegate>
+@interface coreDataAppDelegate : UIResponder <UIApplicationDelegate> {
+    coreDataViewController *viewController;
+}
 
+@property (strong, nonatomic) IBOutlet coreDataViewController *viewController;
 @property (strong, nonatomic) UIWindow *window;
 
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;

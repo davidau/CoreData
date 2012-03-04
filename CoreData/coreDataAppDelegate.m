@@ -7,9 +7,11 @@
 //
 
 #import "coreDataAppDelegate.h"
+#import "coreDataViewController.h"
 
 @implementation coreDataAppDelegate
 
+@synthesize viewController;
 @synthesize window = _window;
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
@@ -19,7 +21,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    viewController = [[coreDataViewController alloc] initWithNibName:@"coreDataViewController" bundle:nil];
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:viewController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

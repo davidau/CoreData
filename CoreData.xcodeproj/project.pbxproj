@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6698383215040FB700857A81 /* coreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6698383015040FB700857A81 /* coreDataViewController.m */; };
+		6698383315040FB700857A81 /* coreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6698383115040FB700857A81 /* coreDataViewController.xib */; };
 		66E1101215035F6100C0D01F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1101115035F6100C0D01F /* UIKit.framework */; };
 		66E1101415035F6100C0D01F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1101315035F6100C0D01F /* Foundation.framework */; };
 		66E1101615035F6100C0D01F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E1101515035F6100C0D01F /* CoreGraphics.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6698382F15040FB700857A81 /* coreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coreDataViewController.h; sourceTree = "<group>"; };
+		6698383015040FB700857A81 /* coreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = coreDataViewController.m; sourceTree = "<group>"; };
+		6698383115040FB700857A81 /* coreDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = coreDataViewController.xib; sourceTree = "<group>"; };
 		66E1100D15035F6100C0D01F /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E1101115035F6100C0D01F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66E1101315035F6100C0D01F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,6 +123,9 @@
 				66E1102315035F6100C0D01F /* coreDataAppDelegate.m */,
 				66E1102515035F6100C0D01F /* CoreData.xcdatamodeld */,
 				66E1101A15035F6100C0D01F /* Supporting Files */,
+				6698382F15040FB700857A81 /* coreDataViewController.h */,
+				6698383015040FB700857A81 /* coreDataViewController.m */,
+				6698383115040FB700857A81 /* coreDataViewController.xib */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E1101E15035F6100C0D01F /* InfoPlist.strings in Resources */,
+				6698383315040FB700857A81 /* coreDataViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +269,7 @@
 				66E1102015035F6100C0D01F /* main.m in Sources */,
 				66E1102415035F6100C0D01F /* coreDataAppDelegate.m in Sources */,
 				66E1102715035F6100C0D01F /* CoreData.xcdatamodeld in Sources */,
+				6698383215040FB700857A81 /* coreDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +431,7 @@
 				66E1104215035F6100C0D01F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66E1104315035F6100C0D01F /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +440,7 @@
 				66E1104515035F6100C0D01F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
